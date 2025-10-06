@@ -1,0 +1,26 @@
+# Núcleo de procesamiento
+torch>=2.1.0
+torchaudio>=2.1.0
+transformers>=4.37.0
+sentencepiece
+protobuf
+
+# Transcripción optimizada
+faster-whisper>=1.0.3
+
+# Utilidades de audio
+soundfile>=0.12.1
+ffmpeg-python>=0.2.0
+
+# Resumen de texto y tokenización
+huggingface-hub>=0.23.0
+tqdm>=4.66.0
+
+# Herramientas generales
+numpy>=1.26.0
+pandas>=2.1.0
+
+# Dependencias de sistema recomendadas:
+# ffmpeg  (debe estar instalado en el sistema)
+# sudo apt-get install ffmpeg   (Linux)
+# brew install ffmpeg           (macOS)
